@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Starry Tattoo Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header>
+  <div class="logo">STARRY <span>TATTOO</span></div>
+  <nav>
+    <ul>
+      <li><a href="#estilos">Estilos</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="#artistas">Artistas</a></li>
+      <li><a href="#processo">Processo</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+  <a href="#contato" class="nav-cta">Agendar</a>
+  <button class="menu-toggle" aria-label="Menu">☰</button>
+</header>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Bem-vindo ao seu novo estúdio</div>
+      <h1>Sua história, escrita em <em>traço e dourado</em>.</h1>
+      <p>Aqui você é recebido com calma, café e conversa antes da agulha. Cada tatuagem nasce de um cuidado real com sua ideia, sua pele e seu conforto, do primeiro esboço à última sessão.</p>
+      <div class="hero-actions">
+        <a href="#contato" class="btn-primary">Vamos conversar</a>
+        <a href="#galeria" class="btn-ghost">Ver galeria</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <svg viewBox="0 0 500 500">
+        <g class="ring-anim">
+          <circle class="ring" cx="250" cy="250" r="210"/>
+          <circle class="ring" cx="250" cy="250" r="198" stroke-dasharray="2 6"/>
+        </g>
+        <g class="ring-anim reverse">
+          <circle class="ring" cx="250" cy="250" r="150"/>
+        </g>
+        <!-- ornamental rose line art -->
+        <g stroke="#c9a24b" stroke-width="1.4" fill="none" stroke-linecap="round">
+          <path d="M250 130 C 210 160, 200 220, 250 250 C 300 220, 290 160, 250 130 Z"/>
+          <path d="M250 250 C 210 280, 200 340, 250 370 C 300 340, 290 280, 250 250 Z"/>
+          <path d="M180 200 C 150 220, 150 260, 180 280"/>
+          <path d="M320 200 C 350 220, 350 260, 320 280"/>
+          <path d="M250 130 C 250 100, 230 80, 200 78"/>
+          <path d="M250 130 C 250 100, 270 80, 300 78"/>
+          <path d="M250 370 C 250 400, 230 420, 200 422"/>
+          <path d="M250 370 C 250 400, 270 420, 300 422"/>
+          <circle cx="250" cy="250" r="6" fill="#e8cd82" stroke="none"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+  <div class="stats-strip">
+    <div class="stat"><div class="num">12</div><div class="lbl">Anos de estúdio</div></div>
+    <div class="stat"><div class="num">3.4k</div><div class="lbl">Tatuagens feitas</div></div>
+    <div class="stat"><div class="num">5</div><div class="lbl">Artistas residentes</div></div>
+    <div class="stat"><div class="num">4.9</div><div class="lbl">Avaliação média</div></div>
+  </div>
+</section>
+
+<hr class="divider" style="width:70%;">
+
+<section id="estilos">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-eyebrow">Especialidades</div>
+      <h2>Um estilo para te acolher.</h2>
+      <p>Não importa se é sua primeira tatuagem ou a décima: temos um artista dedicado a ouvir sua ideia e transformá-la com carinho, no ritmo que for confortável para você.</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="styles-grid">
+      <div class="style-card">
+        <span class="idx">I.</span>
+        <h3>Fine Line</h3>
+        <p>Traços finos e contínuos, ideais para desenhos delicados, letras e composições minimalistas.</p>
+      </div>
+      <div class="style-card">
+        <span class="idx">II.</span>
+        <h3>Blackwork</h3>
+        <p>Preto sólido, contraste forte e geometria precisa para peças de grande impacto visual.</p>
+      </div>
+      <div class="style-card">
+        <span class="idx">III.</span>
+        <h3>Ornamental Dourado</h3>
+        <p>Detalhes em dourado sobre preto profundo, inspirados em ourivesaria e ornamentos clássicos.</p>
+      </div>
+      <div class="style-card">
+        <span class="idx">IV.</span>
+        <h3>Realismo</h3>
+        <p>Sombreamento em múltiplas camadas para retratos e texturas com profundidade fotográfica.</p>
+      </div>
+      <div class="style-card">
+        <span class="idx">V.</span>
+        <h3>Old School</h3>
+        <p>Contornos grossos e cores tradicionais, com releitura contemporânea de temas clássicos.</p>
+      </div>
+      <div class="style-card">
+        <span class="idx">VI.</span>
+        <h3>Pontilhismo</h3>
+        <p>Composições construídas ponto a ponto, para texturas suaves e mandalas detalhadas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="galeria">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-eyebrow">Portfólio</div>
+      <h2>Histórias que já contamos.</h2>
+      <p>Uma seleção de peças feitas com carinho no estúdio, cada uma com uma pessoa e uma história por trás.</p>
+    </div>
+    <div class="gallery">
+      <div class="g-item tall" data-label="Blackwork · Braço">
+        <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="38" fill="none" stroke="#c9a24b" stroke-width="1"/><path d="M50 12 L50 88 M12 50 L88 50" stroke="#c9a24b" stroke-width="1"/></svg>
+      </div>
+      <div class="g-item wide" data-label="Ornamental · Costas">
+        <svg viewBox="0 0 100 100"><path d="M20 50 Q50 10 80 50 Q50 90 20 50 Z" fill="none" stroke="#c9a24b" stroke-width="1"/></svg>
+      </div>
+      <div class="g-item" data-label="Fine Line · Antebraço">
+        <svg viewBox="0 0 100 100"><path d="M30 70 Q50 20 70 70" fill="none" stroke="#c9a24b" stroke-width="1"/></svg>
+      </div>
+      <div class="g-item" data-label="Pontilhismo · Ombro">
+        <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="30" fill="none" stroke="#c9a24b" stroke-width="0.8" stroke-dasharray="1 5"/></svg>
+      </div>
+      <div class="g-item" data-label="Old School · Perna">
+        <svg viewBox="0 0 100 100"><path d="M25 25 L75 75 M75 25 L25 75" stroke="#c9a24b" stroke-width="1"/></svg>
+      </div>
+      <div class="g-item wide" data-label="Realismo · Peito">
+        <svg viewBox="0 0 100 100"><ellipse cx="50" cy="50" rx="35" ry="20" fill="none" stroke="#c9a24b" stroke-width="1"/></svg>
+      </div>
+      <div class="g-item" data-label="Dourado · Pulso">
+        <svg viewBox="0 0 100 100"><path d="M50 20 L60 50 L50 80 L40 50 Z" fill="none" stroke="#c9a24b" stroke-width="1"/></svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider" style="width:70%;">
+
+<section id="artistas">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-eyebrow">Equipe</div>
+      <h2>Quem vai te receber.</h2>
+      <p>Pessoas acolhedoras antes de artistas talentosos. Escolha por estilo ou deixe a gente te indicar na conversa inicial.</p>
+    </div>
+    <div class="artists">
+      <div class="artist-card">
+        <div class="artist-avatar">M</div>
+        <h3>Marina Duarte</h3>
+        <div class="role">Blackwork &amp; Ornamental</div>
+        <p>Especialista em grandes composições geométricas com acabamento em dourado.</p>
+      </div>
+      <div class="artist-card">
+        <div class="artist-avatar">L</div>
+        <h3>Lucas Prata</h3>
+        <div class="role">Fine Line &amp; Lettering</div>
+        <p>Traço leve e preciso, referência em tatuagens delicadas e tipografia autoral.</p>
+      </div>
+      <div class="artist-card">
+        <div class="artist-avatar">C</div>
+        <h3>Camila Rocha</h3>
+        <div class="role">Realismo</div>
+        <p>Dez anos dedicados a retratos e texturas fotográficas em preto e cinza.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="processo">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-eyebrow">Como funciona</div>
+      <h2>Sem pressa, sem surpresas.</h2>
+      <p>Um processo simples e transparente, pensado para você se sentir seguro em cada etapa, da ideia à pele cicatrizada.</p>
+    </div>
+    <div class="process">
+      <div class="p-step">
+        <div class="p-num">01</div>
+        <h3>Consulta</h3>
+        <p>Conversamos sobre referências, local do corpo e tamanho ideal.</p>
+      </div>
+      <div class="p-step">
+        <div class="p-num">02</div>
+        <h3>Desenho</h3>
+        <p>O artista cria uma arte exclusiva e ajusta com você antes da sessão.</p>
+      </div>
+      <div class="p-step">
+        <div class="p-num">03</div>
+        <h3>Sessão</h3>
+        <p>Ambiente esterilizado, materiais descartáveis e pausas quando precisar.</p>
+      </div>
+      <div class="p-step">
+        <div class="p-num">04</div>
+        <h3>Cicatrização</h3>
+        <p>Você recebe um guia de cuidados e acompanhamento pelas primeiras semanas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="testi-wrap">
+      <p class="testi-quote"><span class="mark">“</span>Cheguei nervosa para minha primeira tattoo e saí de lá acolhida, ouvida e apaixonada pelo resultado. Parece que fazem parte da família.</p>
+      <div class="testi-author">Beatriz Nogueira <span>· cliente desde 2022</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section" id="contato">
+  <div class="container">
+    <h2>Conta pra gente sua ideia.</h2>
+    <p>Sem compromisso: preencha o formulário e vamos conversar sobre ela com calma. Respondemos em até 24 horas.</p>
+    <form class="booking" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Recebemos sua mensagem'; this.querySelector('button').disabled=true;">
+      <div class="field"><label>Nome</label><input type="text" required></div>
+      <div class="field"><label>Telefone</label><input type="tel" required></div>
+      <div class="field"><label>Estilo desejado</label>
+        <select>
+          <option>Fine Line</option>
+          <option>Blackwork</option>
+          <option>Ornamental Dourado</option>
+          <option>Realismo</option>
+          <option>Old School</option>
+          <option>Pontilhismo</option>
+        </select>
+      </div>
+      <div class="field"><label>Local no corpo</label><input type="text" placeholder="Ex: antebraço"></div>
+      <div class="field full"><label>Descreva sua ideia</label><textarea rows="4" placeholder="Referências, tamanho, contexto..."></textarea></div>
+      <button type="submit" class="btn-primary">Enviar pedido</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo">STARRY <span>TATTOO</span></div>
+        <p class="footer-desc">Um estúdio acolhedor, especializado em traço fino, blackwork e detalhes em dourado.</p>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#estilos">Estilos</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#artistas">Artistas</a></li>
+          <li><a href="#processo">Processo</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Estúdio</h4>
+        <ul>
+          <li><a href="#">Rua das Artes, 240</a></li>
+          <li><a href="#">Ter – Sáb, 11h às 20h</a></li>
+          <li><a href="#">contato@starrytattoo.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Siga</h4>
+        <div class="socials">
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Starry Tattoo Studio</span>
+      <span>Feito com traço, tinta e ouro.</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
