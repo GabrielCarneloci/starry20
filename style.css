@@ -77,6 +77,16 @@
   .nav-cta:hover{background:rgba(201,162,75,0.1);border-color:var(--gold);}
   .menu-toggle{display:none;background:none;border:none;color:var(--gold-light);font-size:1.6rem;cursor:pointer;}
 
+  .watermark{
+    position:fixed;
+    bottom:14px;left:14px;
+    font-size:0.7rem;
+    letter-spacing:0.1em;
+    color:rgba(201,162,75,0.35);
+    pointer-events:none;
+    z-index:150;
+  }
+
   /* AVISO */
   @keyframes noticeIn{
     from{opacity:0;transform:translateY(-10px);}
@@ -515,12 +525,3 @@
   transition:transform .25s;
 }
 .instagram-float:hover{transform:scale(1.08);}
-.watermark{
-  position:fixed;
-  bottom:14px;left:14px;
-  font-size:0.7rem;
-  letter-spacing:0.1em;
-  color:rgba(201,162,75,0.35);
-  pointer-events:none;
-  z-index:150;
-}
